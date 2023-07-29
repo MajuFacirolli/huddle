@@ -24,7 +24,7 @@ body::before {
 }
 
 header {
-    max-width: 300px;
+    max-height: 300px;
     padding: 40px;
 }
 
@@ -113,4 +113,50 @@ footer .attribution {
 
 footer .attribution a {
     color: hsl(300, 69%, 71%);
+}
+
+@media screen and (max-width: 980px) {
+    body::before {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-position: top;
+        background-size: contain;
+    }
+
+    header img {
+        max-width: 120px;
+    }
+    
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    main section img {
+        max-width: 300px;
+    }
+
+    main aside {
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+        text-align: center;
+    }
+
+    main aside .title {
+        font-size: 20px;
+    }
+
+    main aside p {
+        font-size: 14px;
+    }
+
+    main aside button {
+        width: 210px;
+        height: 40px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
