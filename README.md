@@ -8,8 +8,6 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -27,16 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-solution-2aeFuZbG-4)
+- Live Site URL: [Frontend Mentor | Huddle landing page](https://majufacirolli.github.io/huddle/)
 
 ## Author
 
